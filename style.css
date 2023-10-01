@@ -1,0 +1,175 @@
+.menu_1{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    display: inline-block;
+    min-width: 250px;
+}
+.menu_1 li{
+    padding: 10px;
+    border: 1px solid #ddd ;
+    background: #f3f3f3;
+}
+.menu_2{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu_2 li {
+    margin-right: 10px;
+    display: inline-block;
+}
+.menu_2 a{
+    margin: 0 10px;
+    text-align: center;
+    color: #000;
+    display: inline-block;
+    background-color: #ddd;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 18px;
+ }
+.menu_1 li:hover{
+    background-color: #0056A6;
+    color: white;
+}
+.menu_2 a:hover{
+    background-color: #A64200;
+    color: white;
+}
+.table_1{
+    font-family: 'Roboto', sans-serif;
+    border-collapse: collapse;
+}
+.table_1 thead th{
+    padding: 10px 20px ;
+    background: #01987A;
+    color: white;
+}
+.table_1 tr , .table_1 td {
+    padding: 10px 20px ;
+    text-align: left;
+}
+.table_1 td {
+    border-bottom: 1px solid #ddd;
+}
+.menu{
+    background: #E05200;
+    position: sticky;
+    border-radius: 10px;
+    top: 0;
+    left: 0;
+    padding: 12px 20px;
+    z-index: 100;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+.menu ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 30px ;
+}
+.BOX-B{
+    background: #CCCCCC;
+    width: 100%;
+    height: 1000px;
+    margin-top: 50px ;
+    border-radius: 10px;
+    position: relative;
+}
+.box{
+    width: 100px;
+    height: 60px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    line-height: 60px;
+    font-size: 20px;
+    color: white;
+}
+.box1{
+    background: #E05200;
+    top: 0;
+    left: 0;
+}
+.box2{
+    background: #D40000;
+    top: 20px;
+    right: 20px;
+}
+.box3{
+    background: #369400;
+    
+    bottom: 40px;
+    right: 40px;
+}
+.box4{
+    background: #2A00D4;
+    bottom: 60px;
+    left: 60px;
+}
+.call {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.call a{
+    border-radius: 50% ;
+    background: #369400;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    z-index: 100;
+}
+.content{
+    background: #0065BC;
+    margin-top: 30px;
+    border-radius: 10px;
+    color: white;
+    padding: 80px 50px;
+    overflow: hidden;
+    position: relative;
+}
+.content .inner-content{
+    position: relative;
+    z-index: 1;
+}
+.content::first-letter /* To chữ cái đầu của element */{
+    font-size: 50px;
+}
+.content::first-line /* Viết hoa dòng đầu tiên của element */{
+    text-transform: uppercase;
+}
+.content::before /* Thêm khối vào đằng trước element */{
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: #0000002d;
+}
+.content::after /* Thêm khối vào đằng sau element */{
+    content: "";
+    position: absolute;
+    bottom: -50px;
+    right: -50px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background: #0000002d;
+}
